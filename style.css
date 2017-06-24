@@ -162,7 +162,11 @@ html, body {
   cursor: pointer;
   transform: translateY(-50%);
 }
-.container .group .main .taipeitell, .container .group .main .hsinchutell {
+.container .group .main .taipeitell {
+  width: 100%;
+  display: none;
+}
+.container .group .main .hsinchutell {
   width: 100%;
   display: none;
 }
@@ -188,7 +192,7 @@ html, body {
 }
 .container .group .main .photos .for .block img {
   width: 100%;
-  height: 390px;
+  height: 430px;
   min-width: 700px;
   margin: 5px;
   cursor: pointer;
@@ -291,18 +295,36 @@ html, body {
 .container .group .main .photos .for .content .info {
   margin-top: 30px;
   text-align: center;
-  display: inline-block;
-  padding: 10px;
-  width: 30%;
+  white-space: nowrap;
+  width: 60%;
   left: 50%;
+  border: 5px solid #e5451f;
   margin-left: 0px;
   margin-right: 0px;
   font-family: "Francois One", "微軟正黑體";
-  font-size: 20px;
+  font-size: 0px;
   transform: translateX(-50%);
-  background-color: #e5451f;
-  color: #fff;
   margin-bottom: 30px;
+}
+.container .group .main .photos .for .content .info .info1 {
+  width: 50%;
+  padding: 5px;
+  height: 100%;
+  display: inline-block;
+  background-color: #e5451f;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 20px;
+}
+.container .group .main .photos .for .content .info .info2 {
+  width: 50%;
+  padding: 5px;
+  height: 100%;
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  box-sizing: border-box;
+  font-size: 20px;
 }
 .container .group .main .photos .for .content .contentphotos .toppics {
   width: 80%;
@@ -425,6 +447,96 @@ html, body {
   left: 50%;
   transform: translateX(-50%);
 }
+.container .group .main .photos .for .content .alert2 {
+  background-color: #fff;
+  visibility: hidden;
+  font-family: "Francois One", "微軟正黑體";
+  font-weight: 550;
+  font-size: 18px;
+  line-height: 25px;
+  position: fixed;
+  text-align: center;
+  padding: 10px;
+  width: 450px;
+  left: 50%;
+  border-radius: 5px;
+  border: 5px solid #ff2911;
+  transform: translateX(-50%);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+  top: 800px;
+}
+.container .group .main .photos .for .content .alert2 .buttonalert {
+  color: #fff;
+  background-color: #ff2911;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.container .group .main .photos .for .content .contentfooter {
+  margin-top: 20px;
+  width: 100%;
+  bottom: 0px;
+  border-top: 2px solid #ff2911;
+  white-space: nowrap;
+  font-size: 0px;
+}
+.container .group .main .photos .for .content .contentfooter .contentblock {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+.container .group .main .photos .for .content .contentfooter .contentblock .call {
+  width: 40%;
+  left: 50%;
+  margin-top: 10px;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+.container .group .main .photos .for .content .contentfooter .contentblock .contentlocation {
+  width: 40%;
+  left: 50%;
+  margin-top: 10px;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+.container .group .main .photos .for .content .contentfooter .contentblock .contentcomment {
+  width: 40%;
+  left: 50%;
+  margin-top: 10px;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+.container .group .main .photos .for .content .contentfooter .contentblock .contentperson {
+  width: 42.5%;
+  left: 50%;
+  margin-top: 10px;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+.container .group .main .photos .for .content .contentfooter .contentblock .contentfootertitle {
+  font-size: 25px;
+  color: #a0a0a0;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.container .group .main .photos .for .content .contentfooter .contentblock .contentfootertitlecall {
+  font-size: 25px;
+  color: #e9441c;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
 .container .group .main .cover {
   width: 100%;
   height: 100%;
@@ -432,6 +544,66 @@ html, body {
   position: absolute;
   top: 0px;
   visibility: hidden;
+  cursor: pointer;
+}
+.container .group .alertrandom {
+  background-color: #fff;
+  visibility: hidden;
+  font-family: "Francois One", "微軟正黑體";
+  font-weight: 550;
+  font-size: 18px;
+  line-height: 25px;
+  position: fixed;
+  text-align: center;
+  padding: 10px;
+  width: 450px;
+  left: 50%;
+  border-radius: 5px;
+  border: 5px solid #ff2911;
+  transform: translateX(-50%);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+  top: 150px;
+}
+.container .group .alertrandom .buttonalertrandom {
+  color: #fff;
+  background-color: #ff2911;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.container .group .alert1 {
+  background-color: #fff;
+  visibility: hidden;
+  font-family: "Francois One", "微軟正黑體";
+  font-weight: 550;
+  font-size: 18px;
+  line-height: 25px;
+  position: fixed;
+  text-align: center;
+  padding: 10px;
+  width: 450px;
+  left: 50%;
+  border-radius: 5px;
+  border: 5px solid #ff2911;
+  transform: translateX(-50%);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+  top: 150px;
+}
+.container .group .alert1 .buttonalert {
+  color: #fff;
+  background-color: #ff2911;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 10px;
   cursor: pointer;
 }
 .container .group .footer {

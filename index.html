@@ -44,8 +44,8 @@
       </div>
       <div class="main">
         <div class="navbar"><img class="extra" v-on:click="extra()" src="https://scontent-tpe1-1.xx.fbcdn.net/v/t34.0-12/19427521_1701452719882957_2048126102_n.png?oh=f4734cf9b92ba262a4142a7d398e94da&amp;oe=594ED676"/>
-          <div class="title">ChickenAttract</div><img class="button" src="https://scontent.ftpe3-1.fna.fbcdn.net/v/t34.0-12/19478260_1702689526425943_673351887_n.png?oh=9b3253923781be1594cf7b5c7479b7d4&amp;oe=594F09BE" v-on:click="random()"/>
-        </div><img class="taipeitell" src="https://upload.cc/i/3T4jrq.png"/><img class="hsinchutell" src="https://upload.cc/i/1YzEX8.png"/>
+          <div class="title">ChickenAttract</div><img class="button" src="https://scontent.ftpe3-1.fna.fbcdn.net/v/t34.0-12/19478260_1702689526425943_673351887_n.png?oh=9b3253923781be1594cf7b5c7479b7d4&amp;oe=594F09BE" v-on:click="alertrandom()"/>
+        </div><img class="taipeitell" src="https://upload.cc/i/3T4jrq.png"/><img class="hsinchutell" src="https://upload.cc/i/GgBKIw.png"/>
         <div class="photos">
           <div class="for" v-for="(id,photo) in photos">
             <div class="block"><img class="photo" v-on:click="content(id)" src="{{photo.url}}"/>
@@ -62,7 +62,10 @@
                 <div class="storename">{{photo.storename}}</div>
               </div>
               <div class="line"></div>
-              <div class="info">Restaurant InFo</div>
+              <div class="info"> 
+                <div class="info1">Restaurant InFo</div>
+                <div class="info2">Ranking(18)</div>
+              </div>
               <div class="contentphotos">
                 <div class="toppics"><img class="toppic" v-for="(id,food) in photo.others_foods" v-on:click="looks(id)" src="{{food}}"/></div>
                 <div class="circles">
@@ -87,16 +90,47 @@
                 <div class="time">營業時間 : {{photo.time}}</div>
                 <div class="menu">菜單 : </div><br/><img src="{{photo.menu}}"/>
               </div>
+              <div class="alert2">
+                <div class="title">感謝您喜歡我們這個功能，我們正在加緊研發中~</div>
+                <div class="title">如果您希望第一時間得知研發資訊</div>
+                <div class="title">請留下您的email~</div><br/>
+                <div class="title">您前方已經有27人留下資訊</div><br/>
+                <div class="buttonalert" v-on:click="noregister2()">現在還不要</div>
+                <div class="buttonalert">註冊留下資訊 </div>
+              </div>
+              <div class="contentfooter">
+                <div class="contentblock" v-on:click="alert2()"><img class="call" src="https://scontent-tpe1-1.xx.fbcdn.net/v/t34.0-12/19433781_1702395486455347_207563028_n.png?oh=279c17c393ec2a2504daee958ed952cc&amp;oe=595078EF"/><br/>
+                  <div class="contentfootertitlecall">Call Now</div>
+                </div>
+                <div class="contentblock" v-on:click="alert2()"><img class="contentlocation" src="https://scontent-tpe1-1.xx.fbcdn.net/v/t34.0-12/19433549_1702395489788680_1676551212_n.png?oh=548c2c8327702d45f6e5d195e8001b6c&amp;oe=5950E25F"/><br/>
+                  <div class="contentfootertitle">View On Map</div>
+                </div>
+                <div class="contentblock" v-on:click="alert2()"><img class="contentcomment" src="https://scontent-tpe1-1.xx.fbcdn.net/v/t34.0-12/19433479_1702395493122013_1675058927_n.png?oh=35ea98c0a97523d00ef429b090cc8add&amp;oe=59508917"/><br/>
+                  <div class="contentfootertitle">11 Comments</div>
+                </div><a class="contentblock" href="https://still-cove-53877.herokuapp.com/"><img class="contentperson" src="https://scontent.ftpe3-1.fna.fbcdn.net/v/t34.0-12/19415860_1701447289883500_1982504568_n.png?oh=539c9244e70939e8cdb2bbff25d4fe6f&amp;oe=594F8EDB"/><br/>
+                  <div class="contentfootertitle">My Page</div></a>
+              </div>
             </div>
           </div>
         </div>
         <div class="cover" v-on:click="extraback()"></div>
-        <div class="footer">
-          <div class="block"><img class="gift" src="https://scontent.ftpe3-1.fna.fbcdn.net/v/t34.0-12/19458479_1701447293216833_430296549_n.png?oh=a05b2e6a317b0e08549e760f5248eb23&amp;oe=594F7360"/></div>
-          <div class="block"><img class="location" src="https://scontent.ftpe3-1.fna.fbcdn.net/v/t34.0-12/19433400_1701447279883501_598661742_n.png?oh=47ebc1997633188185106e368094ea43&amp;oe=594F2722"/></div>
-          <div class="block"><img class="tkpic" src="https://scontent.ftpe3-1.fna.fbcdn.net/v/t34.0-12/19265016_1701447296550166_2145341474_n.png?oh=8901086295517b5917f3fcbaa7e06461&amp;oe=594F2B34"/></div>
-          <div class="block"><img class="search" src="https://scontent.ftpe3-1.fna.fbcdn.net/v/t34.0-12/19458150_1701447286550167_1088643461_n.png?oh=aa08db01e38e02e3e9d973bb47ec112e&amp;oe=594F6CA9"/></div>
-          <div class="block"><img class="person" src="https://scontent.ftpe3-1.fna.fbcdn.net/v/t34.0-12/19415860_1701447289883500_1982504568_n.png?oh=539c9244e70939e8cdb2bbff25d4fe6f&amp;oe=594F8EDB"/></div>
+        <div class="alertrandom">
+          <div class="title">還不知道要吃甚麼嗎?</div>
+          <div class="title">就由我們幫您決定</div><br/>
+          <div class="buttonalertrandom" v-on:click="random()">就吃這間</div>
+        </div>
+        <div class="alert1">
+          <div class="title">感謝您喜歡我們這個功能，我們正在加緊研發中~</div>
+          <div class="title">如果您希望第一時間得知研發資訊</div>
+          <div class="title">請留下您的email~</div><br/>
+          <div class="title">您前方已經有27人留下資訊</div><br/>
+          <div class="buttonalert" v-on:click="noregister()">現在還不要</div>
+          <div class="buttonalert">註冊留下資訊 </div>
+        </div>
+        <div class="footer"><a class="block" href="https://cherry-cupcake-51356.herokuapp.com/"><img class="gift" src="https://scontent.ftpe3-1.fna.fbcdn.net/v/t34.0-12/19458479_1701447293216833_430296549_n.png?oh=a05b2e6a317b0e08549e760f5248eb23&amp;oe=594F7360"/></a>
+          <div class="block" v-on:click="alert()"><img class="location" src="https://scontent.ftpe3-1.fna.fbcdn.net/v/t34.0-12/19433400_1701447279883501_598661742_n.png?oh=47ebc1997633188185106e368094ea43&amp;oe=594F2722"/></div>
+          <div class="block" v-on:click="alert()"><img class="tkpic" src="https://scontent.ftpe3-1.fna.fbcdn.net/v/t34.0-12/19265016_1701447296550166_2145341474_n.png?oh=8901086295517b5917f3fcbaa7e06461&amp;oe=594F2B34"/></div>
+          <div class="block" v-on:click="alert()"><img class="search" src="https://scontent.ftpe3-1.fna.fbcdn.net/v/t34.0-12/19458150_1701447286550167_1088643461_n.png?oh=aa08db01e38e02e3e9d973bb47ec112e&amp;oe=594F6CA9"/></div><a class="block" href="https://still-cove-53877.herokuapp.com/"><img class="person" src="https://scontent.ftpe3-1.fna.fbcdn.net/v/t34.0-12/19415860_1701447289883500_1982504568_n.png?oh=539c9244e70939e8cdb2bbff25d4fe6f&amp;oe=594F8EDB"/></a>
         </div>
       </div>
     </div>

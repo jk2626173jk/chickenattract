@@ -514,6 +514,9 @@ var all_photos=[
     
   }
 ];
+var content_id=0;
+
+
 var food=[
   "全部",
   "美式",
@@ -524,6 +527,8 @@ var food=[
   "印度式",
   "俄式"
          ];
+
+var content_photo_id=0;
 var vm= new Vue({
   el: "#app1",
   data: {
@@ -536,6 +541,7 @@ var vm= new Vue({
     visit_flag: 1,
     circle_id: "",
     extra_flag:0
+    // random_photos: taipei_photos
     
   },
   methods: {
@@ -549,7 +555,6 @@ var vm= new Vue({
         $(".toppic").css("left","-"+100*(id+1)+"%"); 
         this.circle_id= id+1;
       }
-      
     },
     up: function(id){
       if(id==0)
@@ -574,17 +579,26 @@ var vm= new Vue({
       
         $(".group").css("left","-82%");
         $(".cover").css("visibility","hidden");
+        $(".alert1").css("visibility","hidden");
+        $(".alertrandom").css("visibility","hidden");
         this.content_id= "無";
         // this.extra_flag=1;
   
-    },
-   
+    }, 
     back: function(){
       this.content_id= "無";
       $(".cover").css("visibility","hidden");
     },
     random: function(){
-      this.content_id=Math.floor( Math.random()*all_photos.length + 1)
+      
+      this.content_id=Math.floor( Math.random()*(this.photos.length-1) + 1);
+      $(".cover").css("visibility","visible");
+      $(".alertrandom").css("visibility","hidden");
+    },
+    alertrandom: function(){
+      
+      $(".alertrandom").css("visibility","visible");
+      $(".cover").css("visibility","visible");
     },
     
     content: function(id){
@@ -593,6 +607,7 @@ var vm= new Vue({
       this.visit_flag=1;
       $(".foot").css("margin-top","350px");
       $(".cover").css("visibility","visible");
+      
       // if(id % 3==0){
       //   $(".content").css("left","150%");
       //   $(".content").css("visibility","visible");
@@ -639,6 +654,42 @@ var vm= new Vue({
       $(".taipeitell").css("display","none");
       $(".button").css("visibility","hidden");
       this.extra_flag=0;
+      
+    },
+    noregister: function(id){
+      $(".alert1").css("visibility","hidden");
+      $(".cover").css("visibility","hidden");
+      // if(id % 3==0){
+      //   $(".content").css("left","150%");
+      //   $(".content").css("visibility","visible");
+      
+      
+    },
+    noregister2: function(id){
+      $(".alert2").css("visibility","hidden");
+      // $(".cover2").css("visibility","hidden");
+      // if(id % 3==0){
+      //   $(".content").css("left","150%");
+      //   $(".content").css("visibility","visible");
+      
+      
+    },
+    alert: function(id){
+      $(".alert1").css("visibility","visible");
+      $(".cover").css("visibility","visible");
+      // if(id % 3==0){
+      //   $(".content").css("left","150%");
+      //   $(".content").css("visibility","visible");
+      
+      
+    },
+    alert2: function(id){
+      $(".alert2").css("visibility","visible");
+      // $(".cover2").css("visibility","visible");
+      // if(id % 3==0){
+      //   $(".content").css("left","150%");
+      //   $(".content").css("visibility","visible");
+      
       
     }
 //     checkover: function(id){
