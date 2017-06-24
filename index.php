@@ -92,11 +92,11 @@
         </div>
         <div class="cover" v-on:click="extraback()"></div>
         <div class="footer">
-          <div class="block"><img class="gift" src="https://scontent.ftpe3-1.fna.fbcdn.net/v/t34.0-12/19458479_1701447293216833_430296549_n.png?oh=a05b2e6a317b0e08549e760f5248eb23&amp;oe=594F7360"/></div>
+          <a class="block" href="https://cherry-cupcake-51356.herokuapp.com/"><img class="gift" src="https://scontent.ftpe3-1.fna.fbcdn.net/v/t34.0-12/19458479_1701447293216833_430296549_n.png?oh=a05b2e6a317b0e08549e760f5248eb23&amp;oe=594F7360"/></a>
           <div class="block"><img class="location" src="https://scontent.ftpe3-1.fna.fbcdn.net/v/t34.0-12/19433400_1701447279883501_598661742_n.png?oh=47ebc1997633188185106e368094ea43&amp;oe=594F2722"/></div>
           <div class="block"><img class="tkpic" src="https://scontent.ftpe3-1.fna.fbcdn.net/v/t34.0-12/19265016_1701447296550166_2145341474_n.png?oh=8901086295517b5917f3fcbaa7e06461&amp;oe=594F2B34"/></div>
           <div class="block"><img class="search" src="https://scontent.ftpe3-1.fna.fbcdn.net/v/t34.0-12/19458150_1701447286550167_1088643461_n.png?oh=aa08db01e38e02e3e9d973bb47ec112e&amp;oe=594F6CA9"/></div>
-          <div class="block"><img class="person" src="https://scontent.ftpe3-1.fna.fbcdn.net/v/t34.0-12/19415860_1701447289883500_1982504568_n.png?oh=539c9244e70939e8cdb2bbff25d4fe6f&amp;oe=594F8EDB"/></div>
+          <a class="block" href="https://still-cove-53877.herokuapp.com/"><img class="person" src="https://scontent.ftpe3-1.fna.fbcdn.net/v/t34.0-12/19415860_1701447289883500_1982504568_n.png?oh=539c9244e70939e8cdb2bbff25d4fe6f&amp;oe=594F8EDB"/><a>
         </div>
       </div>
     </div>
