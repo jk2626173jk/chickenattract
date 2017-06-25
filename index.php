@@ -62,7 +62,7 @@
             </div>
             <div class="content" v-if="id==content_id">
               <div class="top">
-                <div class="back" v-on:click="back()"><</div>
+                <div class="back" v-on:click="back()"></div>
                 <div class="storename">{{photo.storename}}</div>
               </div>
               <div class="line"></div>
@@ -95,9 +95,9 @@
                 <div class="menu" id="menu">菜單 : </div><br/><img src="{{photo.menu}}"/>
               </div>
               <div class="alert2">
-                <div class="title">感謝您喜歡我們這個功能，我們正在加緊研發中~</div>
+                <div class="title">感謝您喜歡我們這個功能，我們正在加緊研發中</div>
                 <div class="title">如果您希望第一時間得知研發資訊</div>
-                <div class="title">請留下您的email~</div><br/>
+                <div class="title">請留下您的email</div><br/>
                 <div class="title">您前方已經有27人留下資訊</div><br/>
                 <div class="buttonalert" v-on:click="noregister2()">現在還不要</div>
                 <a class="buttonalert" href="https://www.surveycake.com/s/v2aBw#sthash.B4YT2y2r.dpuf" target="blank">註冊留下資訊 </a>
