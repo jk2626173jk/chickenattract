@@ -1,6 +1,323 @@
 
 var taipei_photos=[
-  {
+{
+    storename: "飯饌韓式料理",
+love_id:0,
+    place: "100台北市中正區忠孝西路一段36號",
+    menu: "http://farm8.static.flickr.com/7362/12408339824_4552b52fe5_o.jpg",
+    tel: "02 2547 2811",
+    time: "11:00 - 22:00",
+    others_foods:[
+"http://www.17life.com/media/A0-65-108/520c88e3EDMb53bEDM4382EDMbc40EDM50f5dc7358e1.jpg",
+"http://iphoto.ipeen.com.tw/photo/comment/201608/cgmff4dd781f3c675313e62d8610f47c4eb830.jpg",
+"https://public.bay.livefilestore.com/y1pUA3MjVvq3x0_66HZpj4jgBKHuYMM2TFhJgwcJEwh1tVcqBU0ExxkYBq7iP7ZJfMI8swpP3MHzDljNru_-YFMag/10025.JPG",
+"https://i0.wp.com/cdn.newhome.tw/wp-content/uploads/2017/03/IMG_%E9%A3%AF%E9%A5%8C7%E7%B8%AE%E5%9C%96.jpg"
+    ]  
+},
+
+
+{
+    storename: "了凡香港油雞飯麵",
+love_id:0,
+    place: "100台北市中正區忠孝西路一段36號",
+    menu: "https://i2.wp.com/pica5566.000webhostapp.com/wp-content/uploads/2017/05/18192744_784971784991741_7899253217238822188_o.jpg?resize=1024%2C724&ssl=1",
+    tel: "02 2311 8078",
+    time: "11:00-22:00",
+    others_foods:[
+"http://iphoto.ipeen.com.tw/photo/comment/1657226/1371011/cgm53baea79ef7f2f902a10a0c606d04909981.jpg",
+"http://resource.mingweekly.com/userfiles/sm/sm640480_images_A1/10837/2017042270901033.jpg",
+"https://i1.wp.com/pica5566.000webhostapp.com/wp-content/uploads/2017/05/photo_2017-05-09_10-23-44.jpg?fit=1280%2C960&ssl=1",
+"https://farm5.staticflickr.com/4194/34406219985_61363ee926_b.jpg"
+    ] 
+},
+
+
+{
+    storename: "銀座拉麵",
+love_id:0,
+    place: "100台北市中正區南陽街4號2樓",
+    menu: "http://pic.pimg.tw/honeymay99/1309352395-0ece20aa72f42489ee96f06445ff0c35.jpg?v=1309352396",
+    tel: "02 2370 5615",
+    time: "11:30-22:00",
+    others_foods:[
+"http://pics13.blog.yam.com/3/userfile/m/maruko0728/album/149d4c1955043b.jpg",
+"http://b.share.photo.xuite.net/s670715/1b8ac3b/11890580/570662055_m.jpg",
+"http://8.share.photo.xuite.net/dayehet/1868bfc/10554946/487624378_m.jpg",
+"http://pic.pimg.tw/chiali528/1386308423-4271894934_n.jpg"
+    ] 
+},
+
+
+{
+    storename: "添好運",
+love_id:0,
+    place: "100台北市中正區忠孝西路一段36號",
+    menu: "https://farm3.staticflickr.com/2939/14764029424_7da4a2b503_o.jpg",
+    tel: "02 2370 7078",
+    time: "10:00-22:00",
+    others_foods:[
+"http://www.walkerland.com.tw/image/poi/p43036/m28908/b1f9ef0264ac109ed04745d8a5b8323d9755adcb.jpg",
+"http://img.chinatimes.com/newsphoto/2016-04-25/656/20160425003592.jpg",
+"http://img.ltn.com.tw/Upload/style/page/2015/09/04/150904-1923-1-p3HG2.jpg",
+"https://s3-media3.fl.yelpcdn.com/bphoto/6mjFutNtZ6dVMRHqcnbxDA/348s.jpg"
+    ] 
+},
+
+
+{
+    storename: "十三川日本拉麵定食",
+love_id:0,
+    place: "100台北市中正區公園路18號",
+    menu: " https://lh3.googleusercontent.com/FWPSgVWb4UeI305P8B91Hv08DH-eGqO_dFY_Aq6LXcA6PnwXOPoi7nWkf7qFA2IDr0zYlGZ_8H0PNo11DLXDKEtk1vgJ9BwV=s640 ",
+    time: "11:00-20:30",
+    others_foods:[
+"http://iphoto.ipeen.com.tw/photo/comment/1414958/1398530/cm20170521___866f81cdd6371dd9d4800122058eb339665.jpg",
+"https://1.bp.blogspot.com/-R8TY3f8_1kk/V8LJZxsTvVI/AAAAAAAAXs8/zDCRiiKa8_sQCdmfhtrhzPEEbsTQI25AQCLcB/s1600/1.JPG",
+"http://iphoto.ipeen.com.tw/photo/comment/1414958/1398530/cm20170521___533eb966af75556a13836c175a6b3ee4146.jpg",
+"http://3.bp.blogspot.com/-CtAM182QBvg/U7OTu6tTheI/AAAAAAAAEU0/-AXKZ95G3js/s1600/IMG_1611.JPG"
+    ] 
+},
+
+
+{
+    storename: "良品牛肉麵",
+love_id:0,
+    place: " 100台北市中正區開封街一段10號",
+    menu: " http://iphoto.ipeen.com.tw/photo/comment/646412/1040208/cm20160522___54818b8bd573aea7c12be3adea3dc5df199.jpg ",
+    tel: "02 2371 2644",
+    time: "09:00-22:00",
+    others_foods:[
+"http://pic.pimg.tw/papillon1816/4b84d4cbec56b.jpg",
+"http://0.blog.xuite.net/0/f/e/f/13260498/blog_62195/txt/21539499/9.jpg",
+"http://0.blog.xuite.net/0/f/e/f/13260498/blog_62195/txt/21539499/8.jpg",
+"https://media-cdn.tripadvisor.com/media/photo-s/0d/ef/5f/5a/caption.jpg"
+    ] 
+},
+
+
+{
+    storename: " 108 MATCHA SARO 抹茶茶廊",
+love_id:0,
+    place: "台北市大同區承德路一段1號",
+    menu: " https://2.bp.blogspot.com/--k9CFc9EKJQ/V2K5jJBV8xI/AAAAAAAAWAc/orWvfF_xDQsdsNX_nOMc4rWbX3aIAqNrACLcB/s1600/IMAG6263.jpg ",
+    tel: " 02-2182-8888 ",
+    time: "週日至週四11:00~21:30；週五、六11:00~22:00 ",
+    others_foods:[
+"http://4.bp.blogspot.com/-ciLTwKglxCw/VUtHkFbE2dI/AAAAAAAACcU/6XU9FLPTWvQ/s1600/11253867_10203273352669472_23654029_n.jpg",
+"http://1.bp.blogspot.com/-IMiqGQdM28U/VUtHiIabNuI/AAAAAAAACb0/XFXCFA4rfYY/s1600/11210368_10203273379910153_1312577284_n.jpg",
+"https://farm4.staticflickr.com/3772/19903963532_c447d4497f_o.jpg",
+"https://farm1.staticflickr.com/507/19916596131_c3cae71361_o.jpg"
+    ] 
+},
+
+
+{
+    storename: "炒飯先生",
+love_id:0,
+    place: " 100台北市中正區信陽街17號",
+    menu: " http://iphoto.ipeen.com.tw/photo/comment/86386/717136/cm20140820___e04d9417fdc5ce2f26ef1d88c585ef12194.jpg ",
+    time: "中餐、晚餐時段",
+    others_foods:[
+"http://cdn.buzzbooklet.com/content/d369c161b4387f6223c07d9530aac313.jpg",
+"http://103.tw.tranews.com/Show/images/News/64691_1.jpg",
+"http://cdn.buzzbooklet.com/content/5f29fd7a9e6f36b2e1fd9cd7ed479a53.jpg",
+"http://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/17934548_1416595995028388_901753384799830016_n.jpg?ig_cache_key=MTQ5NDIxODA2NTA1NTA3Nzc3NA%3D%3D.2"
+    ] 
+},
+
+
+{
+    storename: "法瓦奇朵",
+love_id:0,
+    place: " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKaeA1SlOd2slBdXio-k-ItapiG0l5z9VBVgBy2_a6T9H3ADaDuw ",
+    menu: " https://pic.pimg.tw/wayne2238/1434084484-3846142387_n.png ",
+    tel: "02 2311 0215",
+    time: "11:30-22:00",
+    others_foods:[
+"https://pic.pimg.tw/deliaandtzu/1487646265-3866061560_n.jpg",
+"https://pic.pimg.tw/nanilovelife/1439301053-2349641831_n.jpg?v=1439301081",
+"https://lh5.googleusercontent.com/-x748e1uns0k/VLEqIpDqgFI/AAAAAAAAn6s/IgjTHPizE7k/w1297-h865-no/IMG_1925.JPG",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKaeA1SlOd2slBdXio-k-ItapiG0l5z9VBVgBy2_a6T9H3ADaDuw"
+    ] 
+},
+
+
+{
+    storename: "拉提49義大利麵",
+love_id:0,
+    place: " http://pic.pimg.tw/cbill412/1339090759-439114957_n.jpg ",
+    menu: " http://d.share.photo.xuite.net/annywin/1d900b4/16132240/864546852_m.jpg ",
+    tel: " 02 2388 0921 ",
+    time: "中餐、晚餐時段",
+    others_foods:[
+"http://blog.roodo.com/peishian/b2f1d9cf.jpg",
+"http://blog.roodo.com/peishian/a79e7ae5.jpg",
+"http://pic.pimg.tw/danachen85/1355499487-4037991234_n.jpg",
+"http://pic.pimg.tw/cbill412/1339090759-439114957_n.jpg"
+    ] 
+},
+
+
+{
+    storename: "御狀元",
+love_id:0,
+    place: " 100台北市中正區許昌街10號",
+    menu: " http://static.wixstatic.com/media/a4d729_18c979b1fce44a1d8bb0301d72f1c97a.jpg/v1/fill/w_620,h_465/a4d729_18c979b1fce44a1d8bb0301d72f1c97a.jpg ",
+    tel: "02 2375 5195",
+    time: "11:00-20:00",
+    others_foods:[
+"https://s3-media1.fl.yelpcdn.com/bphoto/oc-8TSMK1aSzh0YLNaKrGw/l.jpg",
+"http://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/c0.134.1080.1080/16908009_342759999451084_3146061134843346944_n.jpg?ig_cache_key=MTQ1Nzk0ODE1MDIyMzU1MzU0MQ%3D%3D.2.c",
+"http://louisrli.github.io/images/travel/zpkrf/with-chicken.jpg",
+"https://igx.4sqi.net/img/general/200x200/29851972_fQi6r-LrhIOUS0-Npg5iPJn3JyYZ1PEQgyhEIDlcoCU.jpg"
+    ] 
+},
+
+
+{
+    storename: "奧蘿茉CAFE北車店",
+love_id:0,
+    place: "100台北市中正區南陽街26號",
+    menu: " http://4.share.photo.xuite.net/kellychen6012003/148b6dd/19351893/1135149704_x.jpg ",
+    tel: "02 2311 7070",
+    time: "07:30-22:30",
+    others_foods:[
+"http://4.share.photo.xuite.net/kellychen6012003/148b6bf/19351893/1135148906_x.jpg",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0V8XCCYMHTNMGNynORnzuRqoqZ9tDeyRHDkbC45z2uENQisvg2w",
+"http://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/18444495_599924823548667_6198321442367471616_n.jpg?ig_cache_key=MTUxNjAyNTk2MTc1MjQ4NTc1Ng%3D%3D.2",
+"http://obcdn2.obdesign.com.tw/_Blog/blogger//99345eb1-2118-4513-8f1b-7cf266fade7e/CoverPic.jpg"
+    ] 
+},
+
+
+{
+    storename: "三代魚翅肉羹",
+love_id:0,
+    place: " 100台北市中正區寶慶路61號",
+    menu: " https://farm4.staticflickr.com/3859/14590933461_0174f959af_b.jpg ",
+    tel: "02 2331 2656",
+    time: "10:00-22:30",
+    others_foods:[
+"https://igx.4sqi.net/img/general/200x200/48712136_NLtwGL7XlaOZvdrZTxJ2K7wk8xr5lmaIViB1vwsoDdQ.jpg",
+"http://p0.ifengimg.com/pmop/2017/0113/780077280F66ED3E7ECA65B90CBBE55F5E48B379_size79_w1200_h675.jpeg",
+"http://pic.pimg.tw/alex6868/1366044099-2735434633_n.jpg",
+"http://b.blog.xuite.net/b/2/d/e/12584724/blog_32120/txt/34518315/10.jpg"
+    ] 
+},
+
+
+{
+    storename: "京都菓子燒",
+love_id:0,
+    place: "100台北市中正區南陽街4號",
+    menu: " https://s3-media3.fl.yelpcdn.com/bphoto/QLQ0-KIWhpkr6ZdDapBvrA/o.jpg ",
+    tel: "0938 599 956",
+    time: " 11:30~20:00 ",
+    others_foods:[
+"http://iphoto.ipeen.com.tw/photo/comment/548938/853672/cm20150503___7d8f88caf582eab7beee46c97d8efdfa360.jpg",
+"http://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/17267772_1830592737190771_7357170723397304320_n.jpg?ig_cache_key=MTQ3MDIxNjQ4MDM3MjE5MDE0MQ%3D%3D.2",
+"https://pic.pimg.tw/mk1204/1480663478-2805936207_n.jpg",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0NyqiKbTziqXxsyxzaAShLe0KqKgng7aHNmMmdfnlL20fAaZM"
+    ] 
+},
+
+
+{
+    storename: "一番地壽喜燒",
+love_id:0,
+    place: " 100台北市中正區開封街一段48號",
+    menu: " http://b.blog.xuite.net/b/2/d/e/12584724/blog_32120/txt/70826884/3.jpg ",
+    tel: "02 2388 8852",
+    time: "11:00-22:00",
+    others_foods:[
+"https://blog.pylin.org/wp-content/uploads/2012/10/IMG_9425.jpg",
+"https://scontent-ams3-1.cdninstagram.com/t51.2885-15/e35/15801836_318855528508272_436866670141636608_n.jpg?ig_cache_key=MTQyNzQxMDgwNDQ1MzUzODM1MA%3D%3D.2",
+"https://pic.pimg.tw/unsourire/1434599525-4238251922_n.jpg",
+"http://iphoto.ipeen.com.tw/photo/comment/552542/989954/cm20160205___e12e845a4e18b80e9536a54434bbbd10358.jpg"
+    ] 
+},
+
+
+{
+    storename: "老蔡水煎包",
+love_id:0,
+    place: " 100台北市中正區許昌街26號",
+    menu: " https://tabelog.ssl.k-img.com/restaurant/images/Rvw/49028/640x640_rect_49028782.jpg ",
+    tel: "02 2361 2999",
+    time: 06:20-23:00",
+    others_foods:[
+"https://s3-media3.fl.yelpcdn.com/bphoto/7LW0lIN4lKf6_uh6myjSlw/348s.jpg",
+"http://e.share.photo.xuite.net/danny3199/1ea9904/11838493/566679271_m.jpg",
+"http://farm4.static.flickr.com/3153/2719359705_14ec9c8546.jpg",
+"http://static.blog.sina.com.tw//myimages/86/65622/images/20080822130607868.jpg"
+    ] 
+},
+
+
+{
+    storename: "丸壽司",
+love_id:0,
+    place: " 105台北市松山區復興南路一段39號B1樓",
+    menu: " http://3.bp.blogspot.com/-oUBqMY4CGKs/Vd5dy5JGEnI/AAAAAAAAI4I/oOMCrKi7Ia4/s1600/DSC01795.JPG ",
+    tel: "02 6600 8888#8816",
+    time: "11:00-21:30",
+    others_foods:[
+"http://c.share.photo.xuite.net/andysky223/1c20328/2879357/108313515_m.jpg",
+"https://taipei.fun-taiwan.com/Images/PlayNotes/6754-G20120709033646.JPG",
+"http://iphoto.ipeen.com.tw/photo/comment/2/0/7/cm20121002_161309_30479_d39bde357389a5473d09a85cd79d5c6c444.jpg",
+"http://iphoto.ipeen.com.tw/photo/comment/8/1/7/cm20130206_161309_30479_c06b5e95b05de8cfbb05a1b5c4e958e3659.jpg"
+    ] 
+},
+
+
+{
+    storename: "乾杯列車 台北總站",
+love_id:0,
+    place: " 100台北市中正區北平西路3號微風臺北車站",
+    menu: " http://pic.pimg.tw/aova/2058113398f570f7f27bca16293e1b4a.jpg ",
+    tel: "02 2361 8000",
+    time: "10:00-22:00",
+    others_foods:[
+"https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/e15/11377535_467744906734692_588258058_n.jpg",
+"http://1.share.photo.xuite.net/tawei1980/11dbad4/15905327/853310885_m.jpg",
+"https://yuann.tw/wp-content/uploads/2011/01/5331571045_c1529a83e1_b.jpg",
+"http://8.share.photo.xuite.net/triphopstress/18e9114/5090495/208501589_m.jpg"
+    ] 
+},
+
+
+{
+    storename: "好滴咖啡",
+love_id:0,
+    place: " 100台北市中正區南陽街1號2F ",
+    menu: " https://pic.pimg.tw/beautychu060/1456145901-2261420058_n.jpg ",
+    tel: "02 2388 8916",
+    time: "12:00-22:00",
+    others_foods:[
+"http://iphoto.ipeen.com.tw/photo/comment/552542/1049306/cm20160610___3463a935f5f48611cb40e0f4fa1d7427197.jpg",
+"http://iphoto.ipeen.com.tw/photo/comment/552542/1049306/cm20160610___a17eba7b94da23a7c689880ff4f6c309223.jpg",
+"https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/18809441_1902214560034309_2074755137120763904_n.jpg",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6i2hsIoG1BbSXxYdQyWwv5FAMmnep1j5_iQTWWEAgjsIkRY80"
+    ]
+},
+
+
+{
+    storename: "Ten屋",
+love_id:0,
+    place: "100台北市中正區北平西路3號",
+    menu: " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGsPWhrIOjtr7yP6CuNgYyjA_uTVuODO_luFknmBchYE6U8BeI ",
+    tel: "02 2312 2105",
+    time: "11:00-21:00",
+    others_foods:[
+"http://iphoto.ipeen.com.tw/photo/comment/118765/590030/cm20131227___a0ab6659325f07f38b43cce0714c6239105.jpg",
+"http://iphoto.ipeen.com.tw/photo/comment/118765/590030/cm20131227___ed6148579837aac03270fbfb7cefd749326.jpg",
+"http://pic.pimg.tw/hutuzhaima/1360325909-1069601678_m.jpg",
+"http://pic.pimg.tw/hutuzhaima/1360325893-3618974726_m.jpg"
+    ] 
+},
+
+{
     storename: "薩莉亞",
     place: "台北市萬華區峨眉街37號",
 	love_id:0,
@@ -866,6 +1183,323 @@ love_id:0,
 
 
 var all_photos=[
+{
+    storename: "飯饌韓式料理",
+love_id:0,
+    place: "100台北市中正區忠孝西路一段36號",
+    menu: "http://farm8.static.flickr.com/7362/12408339824_4552b52fe5_o.jpg",
+    tel: "02 2547 2811",
+    time: "11:00 - 22:00",
+    others_foods:[
+"http://www.17life.com/media/A0-65-108/520c88e3EDMb53bEDM4382EDMbc40EDM50f5dc7358e1.jpg",
+"http://iphoto.ipeen.com.tw/photo/comment/201608/cgmff4dd781f3c675313e62d8610f47c4eb830.jpg",
+"https://public.bay.livefilestore.com/y1pUA3MjVvq3x0_66HZpj4jgBKHuYMM2TFhJgwcJEwh1tVcqBU0ExxkYBq7iP7ZJfMI8swpP3MHzDljNru_-YFMag/10025.JPG",
+"https://i0.wp.com/cdn.newhome.tw/wp-content/uploads/2017/03/IMG_%E9%A3%AF%E9%A5%8C7%E7%B8%AE%E5%9C%96.jpg"
+    ]  
+},
+
+
+{
+    storename: "了凡香港油雞飯麵",
+love_id:0,
+    place: "100台北市中正區忠孝西路一段36號",
+    menu: "https://i2.wp.com/pica5566.000webhostapp.com/wp-content/uploads/2017/05/18192744_784971784991741_7899253217238822188_o.jpg?resize=1024%2C724&ssl=1",
+    tel: "02 2311 8078",
+    time: "11:00-22:00",
+    others_foods:[
+"http://iphoto.ipeen.com.tw/photo/comment/1657226/1371011/cgm53baea79ef7f2f902a10a0c606d04909981.jpg",
+"http://resource.mingweekly.com/userfiles/sm/sm640480_images_A1/10837/2017042270901033.jpg",
+"https://i1.wp.com/pica5566.000webhostapp.com/wp-content/uploads/2017/05/photo_2017-05-09_10-23-44.jpg?fit=1280%2C960&ssl=1",
+"https://farm5.staticflickr.com/4194/34406219985_61363ee926_b.jpg"
+    ] 
+},
+
+
+{
+    storename: "銀座拉麵",
+love_id:0,
+    place: "100台北市中正區南陽街4號2樓",
+    menu: "http://pic.pimg.tw/honeymay99/1309352395-0ece20aa72f42489ee96f06445ff0c35.jpg?v=1309352396",
+    tel: "02 2370 5615",
+    time: "11:30-22:00",
+    others_foods:[
+"http://pics13.blog.yam.com/3/userfile/m/maruko0728/album/149d4c1955043b.jpg",
+"http://b.share.photo.xuite.net/s670715/1b8ac3b/11890580/570662055_m.jpg",
+"http://8.share.photo.xuite.net/dayehet/1868bfc/10554946/487624378_m.jpg",
+"http://pic.pimg.tw/chiali528/1386308423-4271894934_n.jpg"
+    ] 
+},
+
+
+{
+    storename: "添好運",
+love_id:0,
+    place: "100台北市中正區忠孝西路一段36號",
+    menu: "https://farm3.staticflickr.com/2939/14764029424_7da4a2b503_o.jpg",
+    tel: "02 2370 7078",
+    time: "10:00-22:00",
+    others_foods:[
+"http://www.walkerland.com.tw/image/poi/p43036/m28908/b1f9ef0264ac109ed04745d8a5b8323d9755adcb.jpg",
+"http://img.chinatimes.com/newsphoto/2016-04-25/656/20160425003592.jpg",
+"http://img.ltn.com.tw/Upload/style/page/2015/09/04/150904-1923-1-p3HG2.jpg",
+"https://s3-media3.fl.yelpcdn.com/bphoto/6mjFutNtZ6dVMRHqcnbxDA/348s.jpg"
+    ] 
+},
+
+
+{
+    storename: "十三川日本拉麵定食",
+love_id:0,
+    place: "100台北市中正區公園路18號",
+    menu: " https://lh3.googleusercontent.com/FWPSgVWb4UeI305P8B91Hv08DH-eGqO_dFY_Aq6LXcA6PnwXOPoi7nWkf7qFA2IDr0zYlGZ_8H0PNo11DLXDKEtk1vgJ9BwV=s640 ",
+    time: "11:00-20:30",
+    others_foods:[
+"http://iphoto.ipeen.com.tw/photo/comment/1414958/1398530/cm20170521___866f81cdd6371dd9d4800122058eb339665.jpg",
+"https://1.bp.blogspot.com/-R8TY3f8_1kk/V8LJZxsTvVI/AAAAAAAAXs8/zDCRiiKa8_sQCdmfhtrhzPEEbsTQI25AQCLcB/s1600/1.JPG",
+"http://iphoto.ipeen.com.tw/photo/comment/1414958/1398530/cm20170521___533eb966af75556a13836c175a6b3ee4146.jpg",
+"http://3.bp.blogspot.com/-CtAM182QBvg/U7OTu6tTheI/AAAAAAAAEU0/-AXKZ95G3js/s1600/IMG_1611.JPG"
+    ] 
+},
+
+
+{
+    storename: "良品牛肉麵",
+love_id:0,
+    place: " 100台北市中正區開封街一段10號",
+    menu: " http://iphoto.ipeen.com.tw/photo/comment/646412/1040208/cm20160522___54818b8bd573aea7c12be3adea3dc5df199.jpg ",
+    tel: "02 2371 2644",
+    time: "09:00-22:00",
+    others_foods:[
+"http://pic.pimg.tw/papillon1816/4b84d4cbec56b.jpg",
+"http://0.blog.xuite.net/0/f/e/f/13260498/blog_62195/txt/21539499/9.jpg",
+"http://0.blog.xuite.net/0/f/e/f/13260498/blog_62195/txt/21539499/8.jpg",
+"https://media-cdn.tripadvisor.com/media/photo-s/0d/ef/5f/5a/caption.jpg"
+    ] 
+},
+
+
+{
+    storename: " 108 MATCHA SARO 抹茶茶廊",
+love_id:0,
+    place: "台北市大同區承德路一段1號",
+    menu: " https://2.bp.blogspot.com/--k9CFc9EKJQ/V2K5jJBV8xI/AAAAAAAAWAc/orWvfF_xDQsdsNX_nOMc4rWbX3aIAqNrACLcB/s1600/IMAG6263.jpg ",
+    tel: " 02-2182-8888 ",
+    time: "週日至週四11:00~21:30；週五、六11:00~22:00 ",
+    others_foods:[
+"http://4.bp.blogspot.com/-ciLTwKglxCw/VUtHkFbE2dI/AAAAAAAACcU/6XU9FLPTWvQ/s1600/11253867_10203273352669472_23654029_n.jpg",
+"http://1.bp.blogspot.com/-IMiqGQdM28U/VUtHiIabNuI/AAAAAAAACb0/XFXCFA4rfYY/s1600/11210368_10203273379910153_1312577284_n.jpg",
+"https://farm4.staticflickr.com/3772/19903963532_c447d4497f_o.jpg",
+"https://farm1.staticflickr.com/507/19916596131_c3cae71361_o.jpg"
+    ] 
+},
+
+
+{
+    storename: "炒飯先生",
+love_id:0,
+    place: " 100台北市中正區信陽街17號",
+    menu: " http://iphoto.ipeen.com.tw/photo/comment/86386/717136/cm20140820___e04d9417fdc5ce2f26ef1d88c585ef12194.jpg ",
+    time: "中餐、晚餐時段",
+    others_foods:[
+"http://cdn.buzzbooklet.com/content/d369c161b4387f6223c07d9530aac313.jpg",
+"http://103.tw.tranews.com/Show/images/News/64691_1.jpg",
+"http://cdn.buzzbooklet.com/content/5f29fd7a9e6f36b2e1fd9cd7ed479a53.jpg",
+"http://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/17934548_1416595995028388_901753384799830016_n.jpg?ig_cache_key=MTQ5NDIxODA2NTA1NTA3Nzc3NA%3D%3D.2"
+    ] 
+},
+
+
+{
+    storename: "法瓦奇朵",
+love_id:0,
+    place: " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKaeA1SlOd2slBdXio-k-ItapiG0l5z9VBVgBy2_a6T9H3ADaDuw ",
+    menu: " https://pic.pimg.tw/wayne2238/1434084484-3846142387_n.png ",
+    tel: "02 2311 0215",
+    time: "11:30-22:00",
+    others_foods:[
+"https://pic.pimg.tw/deliaandtzu/1487646265-3866061560_n.jpg",
+"https://pic.pimg.tw/nanilovelife/1439301053-2349641831_n.jpg?v=1439301081",
+"https://lh5.googleusercontent.com/-x748e1uns0k/VLEqIpDqgFI/AAAAAAAAn6s/IgjTHPizE7k/w1297-h865-no/IMG_1925.JPG",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKaeA1SlOd2slBdXio-k-ItapiG0l5z9VBVgBy2_a6T9H3ADaDuw"
+    ] 
+},
+
+
+{
+    storename: "拉提49義大利麵",
+love_id:0,
+    place: " http://pic.pimg.tw/cbill412/1339090759-439114957_n.jpg ",
+    menu: " http://d.share.photo.xuite.net/annywin/1d900b4/16132240/864546852_m.jpg ",
+    tel: " 02 2388 0921 ",
+    time: "中餐、晚餐時段",
+    others_foods:[
+"http://blog.roodo.com/peishian/b2f1d9cf.jpg",
+"http://blog.roodo.com/peishian/a79e7ae5.jpg",
+"http://pic.pimg.tw/danachen85/1355499487-4037991234_n.jpg",
+"http://pic.pimg.tw/cbill412/1339090759-439114957_n.jpg"
+    ] 
+},
+
+
+{
+    storename: "御狀元",
+love_id:0,
+    place: " 100台北市中正區許昌街10號",
+    menu: " http://static.wixstatic.com/media/a4d729_18c979b1fce44a1d8bb0301d72f1c97a.jpg/v1/fill/w_620,h_465/a4d729_18c979b1fce44a1d8bb0301d72f1c97a.jpg ",
+    tel: "02 2375 5195",
+    time: "11:00-20:00",
+    others_foods:[
+"https://s3-media1.fl.yelpcdn.com/bphoto/oc-8TSMK1aSzh0YLNaKrGw/l.jpg",
+"http://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/c0.134.1080.1080/16908009_342759999451084_3146061134843346944_n.jpg?ig_cache_key=MTQ1Nzk0ODE1MDIyMzU1MzU0MQ%3D%3D.2.c",
+"http://louisrli.github.io/images/travel/zpkrf/with-chicken.jpg",
+"https://igx.4sqi.net/img/general/200x200/29851972_fQi6r-LrhIOUS0-Npg5iPJn3JyYZ1PEQgyhEIDlcoCU.jpg"
+    ] 
+},
+
+
+{
+    storename: "奧蘿茉CAFE北車店",
+love_id:0,
+    place: "100台北市中正區南陽街26號",
+    menu: " http://4.share.photo.xuite.net/kellychen6012003/148b6dd/19351893/1135149704_x.jpg ",
+    tel: "02 2311 7070",
+    time: "07:30-22:30",
+    others_foods:[
+"http://4.share.photo.xuite.net/kellychen6012003/148b6bf/19351893/1135148906_x.jpg",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0V8XCCYMHTNMGNynORnzuRqoqZ9tDeyRHDkbC45z2uENQisvg2w",
+"http://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/18444495_599924823548667_6198321442367471616_n.jpg?ig_cache_key=MTUxNjAyNTk2MTc1MjQ4NTc1Ng%3D%3D.2",
+"http://obcdn2.obdesign.com.tw/_Blog/blogger//99345eb1-2118-4513-8f1b-7cf266fade7e/CoverPic.jpg"
+    ] 
+},
+
+
+{
+    storename: "三代魚翅肉羹",
+love_id:0,
+    place: " 100台北市中正區寶慶路61號",
+    menu: " https://farm4.staticflickr.com/3859/14590933461_0174f959af_b.jpg ",
+    tel: "02 2331 2656",
+    time: "10:00-22:30",
+    others_foods:[
+"https://igx.4sqi.net/img/general/200x200/48712136_NLtwGL7XlaOZvdrZTxJ2K7wk8xr5lmaIViB1vwsoDdQ.jpg",
+"http://p0.ifengimg.com/pmop/2017/0113/780077280F66ED3E7ECA65B90CBBE55F5E48B379_size79_w1200_h675.jpeg",
+"http://pic.pimg.tw/alex6868/1366044099-2735434633_n.jpg",
+"http://b.blog.xuite.net/b/2/d/e/12584724/blog_32120/txt/34518315/10.jpg"
+    ] 
+},
+
+
+{
+    storename: "京都菓子燒",
+love_id:0,
+    place: "100台北市中正區南陽街4號",
+    menu: " https://s3-media3.fl.yelpcdn.com/bphoto/QLQ0-KIWhpkr6ZdDapBvrA/o.jpg ",
+    tel: "0938 599 956",
+    time: " 11:30~20:00 ",
+    others_foods:[
+"http://iphoto.ipeen.com.tw/photo/comment/548938/853672/cm20150503___7d8f88caf582eab7beee46c97d8efdfa360.jpg",
+"http://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/17267772_1830592737190771_7357170723397304320_n.jpg?ig_cache_key=MTQ3MDIxNjQ4MDM3MjE5MDE0MQ%3D%3D.2",
+"https://pic.pimg.tw/mk1204/1480663478-2805936207_n.jpg",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0NyqiKbTziqXxsyxzaAShLe0KqKgng7aHNmMmdfnlL20fAaZM"
+    ] 
+},
+
+
+{
+    storename: "一番地壽喜燒",
+love_id:0,
+    place: " 100台北市中正區開封街一段48號",
+    menu: " http://b.blog.xuite.net/b/2/d/e/12584724/blog_32120/txt/70826884/3.jpg ",
+    tel: "02 2388 8852",
+    time: "11:00-22:00",
+    others_foods:[
+"https://blog.pylin.org/wp-content/uploads/2012/10/IMG_9425.jpg",
+"https://scontent-ams3-1.cdninstagram.com/t51.2885-15/e35/15801836_318855528508272_436866670141636608_n.jpg?ig_cache_key=MTQyNzQxMDgwNDQ1MzUzODM1MA%3D%3D.2",
+"https://pic.pimg.tw/unsourire/1434599525-4238251922_n.jpg",
+"http://iphoto.ipeen.com.tw/photo/comment/552542/989954/cm20160205___e12e845a4e18b80e9536a54434bbbd10358.jpg"
+    ] 
+},
+
+
+{
+    storename: "老蔡水煎包",
+love_id:0,
+    place: " 100台北市中正區許昌街26號",
+    menu: " https://tabelog.ssl.k-img.com/restaurant/images/Rvw/49028/640x640_rect_49028782.jpg ",
+    tel: "02 2361 2999",
+    time: 06:20-23:00",
+    others_foods:[
+"https://s3-media3.fl.yelpcdn.com/bphoto/7LW0lIN4lKf6_uh6myjSlw/348s.jpg",
+"http://e.share.photo.xuite.net/danny3199/1ea9904/11838493/566679271_m.jpg",
+"http://farm4.static.flickr.com/3153/2719359705_14ec9c8546.jpg",
+"http://static.blog.sina.com.tw//myimages/86/65622/images/20080822130607868.jpg"
+    ] 
+},
+
+
+{
+    storename: "丸壽司",
+love_id:0,
+    place: " 105台北市松山區復興南路一段39號B1樓",
+    menu: " http://3.bp.blogspot.com/-oUBqMY4CGKs/Vd5dy5JGEnI/AAAAAAAAI4I/oOMCrKi7Ia4/s1600/DSC01795.JPG ",
+    tel: "02 6600 8888#8816",
+    time: "11:00-21:30",
+    others_foods:[
+"http://c.share.photo.xuite.net/andysky223/1c20328/2879357/108313515_m.jpg",
+"https://taipei.fun-taiwan.com/Images/PlayNotes/6754-G20120709033646.JPG",
+"http://iphoto.ipeen.com.tw/photo/comment/2/0/7/cm20121002_161309_30479_d39bde357389a5473d09a85cd79d5c6c444.jpg",
+"http://iphoto.ipeen.com.tw/photo/comment/8/1/7/cm20130206_161309_30479_c06b5e95b05de8cfbb05a1b5c4e958e3659.jpg"
+    ] 
+},
+
+
+{
+    storename: "乾杯列車 台北總站",
+love_id:0,
+    place: " 100台北市中正區北平西路3號微風臺北車站",
+    menu: " http://pic.pimg.tw/aova/2058113398f570f7f27bca16293e1b4a.jpg ",
+    tel: "02 2361 8000",
+    time: "10:00-22:00",
+    others_foods:[
+"https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/e15/11377535_467744906734692_588258058_n.jpg",
+"http://1.share.photo.xuite.net/tawei1980/11dbad4/15905327/853310885_m.jpg",
+"https://yuann.tw/wp-content/uploads/2011/01/5331571045_c1529a83e1_b.jpg",
+"http://8.share.photo.xuite.net/triphopstress/18e9114/5090495/208501589_m.jpg"
+    ] 
+},
+
+
+{
+    storename: "好滴咖啡",
+love_id:0,
+    place: " 100台北市中正區南陽街1號2F ",
+    menu: " https://pic.pimg.tw/beautychu060/1456145901-2261420058_n.jpg ",
+    tel: "02 2388 8916",
+    time: "12:00-22:00",
+    others_foods:[
+"http://iphoto.ipeen.com.tw/photo/comment/552542/1049306/cm20160610___3463a935f5f48611cb40e0f4fa1d7427197.jpg",
+"http://iphoto.ipeen.com.tw/photo/comment/552542/1049306/cm20160610___a17eba7b94da23a7c689880ff4f6c309223.jpg",
+"https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/18809441_1902214560034309_2074755137120763904_n.jpg",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6i2hsIoG1BbSXxYdQyWwv5FAMmnep1j5_iQTWWEAgjsIkRY80"
+    ]
+},
+
+
+{
+    storename: "Ten屋",
+love_id:0,
+    place: "100台北市中正區北平西路3號",
+    menu: " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGsPWhrIOjtr7yP6CuNgYyjA_uTVuODO_luFknmBchYE6U8BeI ",
+    tel: "02 2312 2105",
+    time: "11:00-21:00",
+    others_foods:[
+"http://iphoto.ipeen.com.tw/photo/comment/118765/590030/cm20131227___a0ab6659325f07f38b43cce0714c6239105.jpg",
+"http://iphoto.ipeen.com.tw/photo/comment/118765/590030/cm20131227___ed6148579837aac03270fbfb7cefd749326.jpg",
+"http://pic.pimg.tw/hutuzhaima/1360325909-1069601678_m.jpg",
+"http://pic.pimg.tw/hutuzhaima/1360325893-3618974726_m.jpg"
+    ] 
+},
+
   {
     storename: "新竹東門油雞飯",
     place: "300新竹市東區東門街114號",
