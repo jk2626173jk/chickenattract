@@ -100,7 +100,7 @@
                 <div class="title">請留下您的email~</div><br/>
                 <div class="title">您前方已經有27人留下資訊</div><br/>
                 <div class="buttonalert" v-on:click="noregister2()">現在還不要</div>
-                <div class="buttonalert" href="https://www.surveycake.com/s/v2aBw#sthash.B4YT2y2r.dpuf" target="blank">註冊留下資訊 </div>
+                <a class="buttonalert" href="https://www.surveycake.com/s/v2aBw#sthash.B4YT2y2r.dpuf" target="blank">註冊留下資訊 </a>
               </div>
             </div>
           </div>
