@@ -131,7 +131,7 @@
         </div>
         <div class="contentfooter" v-if="content_flag==1">
           <div class="contentblock" v-on:click="alert2()"><img class="call" src="https://upload.cc/i/oHXNeM.png"/><br/>
-            <div class="contentfootertitlecall">撥打/div>
+            <div class="contentfootertitlecall">撥打</div>
           </div>
           <div class="contentblock" v-on:click="alert2()"><img class="contentlocation" src="https://upload.cc/i/td5C0F.png"/><br/>
             <div class="contentfootertitle">地圖</div>
