@@ -131,15 +131,15 @@
         </div>
         <div class="contentfooter" v-if="content_flag==1">
           <div class="contentblock" v-on:click="alert2()"><img class="call" src="https://upload.cc/i/oHXNeM.png"/><br/>
-            <div class="contentfootertitlecall">Call Now</div>
+            <div class="contentfootertitlecall">撥打/div>
           </div>
           <div class="contentblock" v-on:click="alert2()"><img class="contentlocation" src="https://upload.cc/i/td5C0F.png"/><br/>
-            <div class="contentfootertitle">View On Map</div>
+            <div class="contentfootertitle">地圖</div>
           </div>
           <div class="contentblock" v-on:click="alert2()"><img class="contentcomment" src="https://upload.cc/i/hXUEqe.png"/><br/>
-            <div class="contentfootertitle">11 Comments</div>
+            <div class="contentfootertitle">11則評論</div>
           </div><a class="contentblock" v-on:click="menu()"><img class="contentperson" src="https://upload.cc/i/lupx29.png"/><br/>
-            <div class="contentfootertitle">Menu</div></a>
+            <div class="contentfootertitle">菜單</div></a>
         </div>
       </div>
     </div>
