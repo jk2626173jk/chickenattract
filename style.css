@@ -40,14 +40,14 @@ html, body {
   font-size: 40px;
   display: inline-block;
   position: fixed;
-  top: 220px;
+  top: 250px;
   font-family: "Francois One", "微軟正黑體";
   left: 40%;
   transform: translateX(-50%);
 }
 .container .group .choose .buttongroup {
   position: fixed;
-  top: 350px;
+  top: 375px;
   font-family: "Francois One", "微軟正黑體";
   width: 100%;
 }
