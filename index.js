@@ -2774,6 +2774,8 @@ var vm= new Vue({
         $(".group").css("left","0%");
         $(".cover").css("visibility","visible");
         $(".cover").css("z-index","2");
+	    $(".icon").css("visibility","visible");
+        $(".titlename").css("visibility","visible");
         // this.extra_flag=1;
   
     },
@@ -2783,6 +2785,8 @@ var vm= new Vue({
         $(".cover").css("visibility","hidden");
         $(".alert1").css("visibility","hidden");
         $(".cover").css("z-index","0");
+	    $(".icon").css("visibility","hidden");
+        $(".titlename").css("visibility","hidden");
         $(".alertrandom").css("visibility","hidden");
         this.content_id= "無";
         this.content_flag=0;
@@ -2841,6 +2845,8 @@ var vm= new Vue({
       $(".first").css("margin-top","5px");
       $(".choose").css("top","0px");
       $(".cover").css("z-index","0");
+	    $(".icon").css("visibility","hidden");
+        $(".titlename").css("visibility","hidden");
       this.extra_flag=0;
       this.taipei_flag=1;
       $("html,body").animate(
@@ -2859,6 +2865,8 @@ var vm= new Vue({
       $(".choose").css("top","0px");
       $(".first").css("margin-top","5px");
       $(".cover").css("z-index","0");
+	    $(".icon").css("visibility","hidden");
+        $(".titlename").css("visibility","hidden");
       this.extra_flag=0;
       $("html,body").animate(
       {
@@ -2877,6 +2885,8 @@ var vm= new Vue({
       $(".first").css("margin-top","5px");
       $(".choose").css("top","-100px");
       $(".cover").css("z-index","0");
+	    $(".icon").css("visibility","hidden");
+        $(".titlename").css("visibility","hidden");
       this.extra_flag=0;
       this.taipei_flag=0;
       $("html,body").animate(
