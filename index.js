@@ -757,6 +757,7 @@ var hsinchu_photos=[
 {
     storename: "海洋冰城",
     place: "新竹市東區建功路35號",love_id:0,
+	
     menu: "https://pic.pimg.tw/sanahayama05100/1470584574-3091660792_n.jpg?v=1470584589",
     tel: "03-572-2070",
     time: "09:00~01:30",
