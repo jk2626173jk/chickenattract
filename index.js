@@ -2833,6 +2833,10 @@ var vm= new Vue({
       $(".cover").css("z-index","0");
       this.extra_flag=0;
       this.taipei_flag=1;
+	    $("html,body").animate(
+      {
+        scrollTop: $('.container').offset().top
+		  }, 300);
       
     },
     hsinchu: function(){
@@ -2846,6 +2850,10 @@ var vm= new Vue({
       $(".first").css("margin-top","5px");
       $(".cover").css("z-index","0");
       this.extra_flag=0;
+	    $("html,body").animate(
+      {
+        scrollTop: $('.container').offset().top
+		  }, 300);
       
       
     },
@@ -2861,6 +2869,10 @@ var vm= new Vue({
       $(".cover").css("z-index","0");
       this.extra_flag=0;
       this.taipei_flag=0;
+	    $("html,body").animate(
+      {
+        scrollTop: $('.container').offset().top
+		  }, 300);
       
     },
     noregister: function(id){
