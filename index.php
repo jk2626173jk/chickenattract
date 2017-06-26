@@ -69,8 +69,8 @@
               </div>
               <div class="line"></div>
               <div class="info"> 
-                <div class="info1">Restaurant InFo</div>
-                <div class="info2">Ranking(18)</div>
+                <div class="info1">餐廳資訊</div>
+                <div class="info2">評分 (18)</div>
               </div>
               <div class="contentphotos">
                 <div class="toppics"><img class="toppic" v-for="(id,food) in photo.others_foods" v-on:click="looks(id)" src="{{food}}"/></div>
