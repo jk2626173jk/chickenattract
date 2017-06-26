@@ -45,7 +45,7 @@
       <div class="main">
         <div class="navbar"><img class="extra" v-on:click="extra()" src="https://scontent-tpe1-1.xx.fbcdn.net/v/t34.0-12/19427521_1701452719882957_2048126102_n.png?oh=f4734cf9b92ba262a4142a7d398e94da&amp;oe=594ED676"/>
           <div class="title">ChickenAttract</div><img class="button" src="https://scontent.ftpe3-1.fna.fbcdn.net/v/t34.0-12/19478260_1702689526425943_673351887_n.png?oh=9b3253923781be1594cf7b5c7479b7d4&amp;oe=594F09BE" v-on:click="alertrandom()"/>
-        </div><img class="taipeitell" src="https://upload.cc/i/7vwbIF.png"/><img class="hsinchutell" src="https://upload.cc/i/GgBKIw.png"/>
+        </div><img class="taipeitell" src="https://upload.cc/i/oTgni5.png" src="https://upload.cc/i/GgBKIw.png"/>
         <div class="photos">
           <div class="for" v-for="(id,photo) in photos">
             <div class="block"><img class="photo" v-on:click="content(id)" src="{{photo.others_foods[0]}}"/>
