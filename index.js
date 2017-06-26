@@ -118,10 +118,10 @@ love_id:0,
     menu: " http://iphoto.ipeen.com.tw/photo/comment/86386/717136/cm20140820___e04d9417fdc5ce2f26ef1d88c585ef12194.jpg ",
     time: "中餐、晚餐時段",
     others_foods:[
-"http://cdn.buzzbooklet.com/content/d369c161b4387f6223c07d9530aac313.jpg",
-"http://103.tw.tranews.com/Show/images/News/64691_1.jpg",
-"http://cdn.buzzbooklet.com/content/5f29fd7a9e6f36b2e1fd9cd7ed479a53.jpg",
-"http://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/17934548_1416595995028388_901753384799830016_n.jpg?ig_cache_key=MTQ5NDIxODA2NTA1NTA3Nzc3NA%3D%3D.2"
+"https://img.nash.tw/pixnet/f3e8f1768d3174cbdb8e6736d4b8b990.jpg",
+"https://img.nash.tw/pixnet/203590062511735398b5a2a4784c42d0.jpg",
+"http://iphoto.ipeen.com.tw/photo/comment/86386/717136/cm20140820___d6d3ab0cc65f1c635969c8461abf7a46929.jpg",
+"http://iphoto.ipeen.com.tw/photo/comment/86386/717136/cm20140820___504f0ac71f9ea920fd700ad42de5711b590.jpg"
     ] 
 },
 
@@ -781,7 +781,7 @@ var hsinchu_photos=[
     time: "11:00~22:00",
     others_foods:[
 "https://pic.pimg.tw/pinky033/1441895373-866094215_l.jpg",
-"https://pic.pimg.tw/pinky033/1441895305-166247243_l.jpgg",
+"https://pic.pimg.tw/pinky033/1441895388-3126550612_l.jpg",
 "https://pic.pimg.tw/pinky033/1441895424-1214026976_l.jpg",
 "https://pic.pimg.tw/pinky033/1441895248-914891192_l.jpg"
     ] //
