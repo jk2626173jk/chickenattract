@@ -64,7 +64,7 @@
             </div>
             <div class="content" v-if="id==content_id">
               <div class="top">
-                <div class="back" v-on:click="back()"></div>
+                <div class="back" v-on:click="back()"><</div>
                 <div class="storename">{{photo.storename}}</div>
               </div>
               <div class="line"></div>
