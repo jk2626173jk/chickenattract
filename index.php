@@ -24,7 +24,7 @@
 <div id="app1">
   <div class="container">
     <div class="group">
-      <div class="choose"><img class="icon" src="https://scontent.ftpe3-1.fna.fbcdn.net/v/t34.0-12/19441323_1701994536495442_378990491_n.png?oh=b2ea185a543991fa8aefde84212d730d&amp;oe=594F5938"/><br/>
+      <div class="choose"><img class="icon" src="https://upload.cc/i/FlwJTs.png"/><br/>
         <div class="titlename">Yue</div>
         <div class="buttongroup">
           <div class="button1" v-on:click="all()"> <img class="hsinchu" src="https://upload.cc/i/MiO7zF.png"/>
