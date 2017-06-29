@@ -154,12 +154,12 @@
           <div class="title">您前方已經有27人留下資訊</div><br/>
           <div class="buttonalert" v-on:click="noregister()">現在還不要</div><a class="buttonalert" v-on:click="noregister()" href="https://www.surveycake.com/s/v2aBw#sthash.B4YT2y2r.dpuf" target="blank">註冊留下資訊 </a>
         </div>
-        <div class="footer" v-if="content_flag==0"><a class="block" href="https://cherry-cupcake-51356.herokuapp.com/"><img class="gift" src="https://upload.cc/i/Cjlr56.png"/></a>
+        <div class="footer" v-if="content_flag==0"><a class="block" href="https://cherry-cupcake-51356.herokuapp.com/"><img class="gift" src="https://gift624.herokuapp.com/"/></a>
           <div class="block" v-on:click="distanceout()" v-if="(taipei_flag==1)||(all_flag==1)"><img class="location" src="https://upload.cc/i/ma4gRD.png"/></div>
           <div class="block" v-on:click="alert()" v-if="hsinchu_flag==1"><img class="location" src="https://upload.cc/i/ma4gRD.png"/></div>
           <div class="block" v-on:click="alert()"><img class="tkpic" src="https://upload.cc/i/21zfgj.png"/></div>
           <div class="block" v-on:click="alertall()" v-if="all_flag==1"><img class="search" id="search" src="https://upload.cc/i/5q9Imr.png"/></div>
-          <div class="block" v-on:click="alertrandomtop()" v-if="all_flag!=1"><img class="search" id="search" src="https://upload.cc/i/5q9Imr.png"/></div><a class="block" href="https://still-cove-53877.herokuapp.com/"><img class="person" src="https://upload.cc/i/RzTFog.png"/></a>
+          <div class="block" v-on:click="alertrandomtop()" v-if="all_flag!=1"><img class="search" id="search" src="https://upload.cc/i/5q9Imr.png"/></div><a class="block" href="https://person624.herokuapp.com/"><img class="person" src="https://upload.cc/i/RzTFog.png"/></a>
         </div>
         <div class="contentfooter" v-if="content_flag==1">
           <div class="contentblock" v-on:click="alert2()"><img class="call" src="https://upload.cc/i/oHXNeM.png"/><br/>
