@@ -2,10 +2,14 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>chickenattract-FINAL-demo</title>
+  <title>chickenattrac-拾嗑</title>
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+<meta property="og:title" content="ChickenAttract-拾嗑" >
+<meta property="og:url" content="https://chickenattract.herokuapp.com/">
+<meta property="og:image" content="https://upload.cc/i/OAPi5I.png">
+<meta property="og:description" content="我們是一群熱愛美食與攝影的九十後，致力於用美食圖片讓世界變得繽紛有趣，'拾嗑'是用實拍美食圖來選餐廳的應用程式，免費、直觀且簡單，讓你不用再為了午餐、晚餐吃甚麼而煩惱！
+" >
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
@@ -15,7 +19,7 @@
   
   <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Francois+One|Marck+Script|Source+Sans+Pro'>
 
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="style.css">
 
   
 </head>
@@ -176,7 +180,7 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.28/vue.js'></script>
 
-    <script src="js/index.js"></script>
+    <script src="index.js"></script>
 
 </body>
 </html>
