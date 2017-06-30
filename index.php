@@ -115,7 +115,7 @@
                 <div class="title">我們正在加緊研發中</div>
                 <div class="title">如果您希望第一時間得知研發資訊</div>
                 <div class="title">請留下您的email</div><br/>
-                <div class="title">您前方已經有27人留下資訊</div><br/>
+                <div class="title">您前方已經有67人留下資訊</div><br/>
                 <div class="buttonalert" v-on:click="noregister2()">現在還不要</div>
                 <div class="buttonalert" v-on:click="noregister()" href="https://www.surveycake.com/s/v2aBw#sthash.B4YT2y2r.dpuf" target="blank">註冊留下資訊 </div>
               </div>
@@ -151,7 +151,7 @@
           <div class="title">我們正在加緊研發中</div>
           <div class="title">如果您希望第一時間得知研發資訊</div>
           <div class="title">請留下您的email</div><br/>
-          <div class="title">您前方已經有27人留下資訊</div><br/>
+          <div class="title">您前方已經有67人留下資訊</div><br/>
           <div class="buttonalert" v-on:click="noregister()">現在還不要</div><a class="buttonalert" v-on:click="noregister()" href="https://www.surveycake.com/s/v2aBw#sthash.B4YT2y2r.dpuf" target="blank">註冊留下資訊 </a>
         </div>
         <div class="footer" v-if="content_flag==0"><a class="block" href="https://gift624.herokuapp.com/"><img class="gift" src="https://upload.cc/i/Cjlr56.png"/></a>
