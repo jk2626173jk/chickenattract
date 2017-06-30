@@ -62,7 +62,7 @@ html, body {
   font-family: "Francois One", "微軟正黑體";
   width: 100%;
 }
-.container .group .choose .buttongroup .button1 {
+.container .group .choose .buttongroup .button1top {
   height: 120px;
   color: #fff;
   font-size: 25px;
@@ -72,19 +72,19 @@ html, body {
   border-right: 0px solid;
   cursor: pointer;
 }
-.container .group .choose .buttongroup .button1 .buttontitle {
+.container .group .choose .buttongroup .button1top .buttontitle {
   display: inline-block;
   margin-left: 10%;
   font-size: 50px;
   top: 10px;
 }
-.container .group .choose .buttongroup .button1 .hsinchu {
+.container .group .choose .buttongroup .button1top .hsinchu {
   height: 75%;
   width: 70px;
   top: 10px;
   margin-left: 10%;
 }
-.container .group .choose .buttongroup .button2 {
+.container .group .choose .buttongroup .button2top {
   height: 120px;
   color: #fff;
   font-size: 35px;
@@ -94,19 +94,19 @@ html, body {
   border-right: 0px solid;
   cursor: pointer;
 }
-.container .group .choose .buttongroup .button2 .buttontitle {
+.container .group .choose .buttongroup .button2top .buttontitle {
   display: inline-block;
   margin-left: 10%;
   font-size: 50px;
   top: 10px;
 }
-.container .group .choose .buttongroup .button2 .taipei {
+.container .group .choose .buttongroup .button2top .taipei {
   height: 75%;
   width: 70px;
   top: 10px;
   margin-left: 10%;
 }
-.container .group .choose .buttongroup .button3 {
+.container .group .choose .buttongroup .button3top {
   height: 120px;
   color: #fff;
   font-size: 35px;
@@ -116,13 +116,13 @@ html, body {
   border-right: 0px solid;
   cursor: pointer;
 }
-.container .group .choose .buttongroup .button3 .buttontitle {
+.container .group .choose .buttongroup .button3top .buttontitle {
   display: inline-block;
   margin-left: 10%;
   font-size: 50px;
   top: 10px;
 }
-.container .group .choose .buttongroup .button3 .about {
+.container .group .choose .buttongroup .button3top .about {
   height: 75%;
   width: 70px;
   top: 10px;
