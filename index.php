@@ -121,7 +121,7 @@
               </div>
               <div class="distancealert">
                 <div class="title wait">請稍後~我們正在偵測您的位置......</div>
-                <div class="title nowait">您現在正位於 台北市中正區凱達格蘭大道3號 二二八人文咖啡館</div>
+                <div class="title nowait">您現在正位於 台北市中正區徐州路2號 臺大醫院國際會議中心</div>
                 <div class="title nowait">此餐廳與您的距離有 {{photo.distance}}</div>
                 <div class="title nowait">走路: {{photo.walk_distance}}</div>
                 <div class="title nowait">騎車: {{photo.mot_distance}}</div>
@@ -143,7 +143,7 @@
         </div>
         <div class="distancealertout">
           <div class="title wait">請稍後~我們正在偵測您的位置......</div>
-          <div class="title nowait">您現在正位於 台北市中正區凱達格蘭大道3號 二二八人文咖啡館</div>
+          <div class="title nowait">您現在正位於 台北市中正區徐州路2號 臺大醫院國際會議中心</div>
           <div class="buttonalert nowaitbtn" v-on:click="distancechoose()">我知道了</div>
         </div>
         <div class="alert1">
