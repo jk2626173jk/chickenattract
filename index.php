@@ -32,16 +32,16 @@
       <div class="choose"><img class="icon" src="https://upload.cc/i/FlwJTs.png"/><br/>
         <div class="titlename">林展逸</div>
         <div class="buttongroup">
-          <div class="button1" v-on:click="all()"> <img class="hsinchu" src="https://upload.cc/i/t3amfV.png"/>
+          <div class="button1top" v-on:click="all()"> <img class="hsinchu" src="https://upload.cc/i/t3amfV.png"/>
             <div class="buttontitle">全部</div>
           </div>
-          <div class="button2" v-on:click="taipei()"> <img class="taipei" src="https://upload.cc/i/P0cqm8.png"/>
+          <div class="button2top" v-on:click="taipei()"> <img class="taipei" src="https://upload.cc/i/P0cqm8.png"/>
             <div class="buttontitle">台北</div>
           </div>
-          <div class="button1" v-on:click="hsinchu()"> <img class="hsinchu" src="https://upload.cc/i/P0cqm8.png"/>
+          <div class="button1top" v-on:click="hsinchu()"> <img class="hsinchu" src="https://upload.cc/i/P0cqm8.png"/>
             <div class="buttontitle">新竹</div>
           </div>
-          <div class="button3"> <img class="about" src="https://upload.cc/i/BWdTjb.png"/>
+          <div class="button3top"> <img class="about" src="https://upload.cc/i/BWdTjb.png"/>
             <div class="buttontitle">關於我們</div>
           </div>
         </div>
