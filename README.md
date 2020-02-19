@@ -8,4 +8,4 @@ codepen : https://codepen.io/jk2626173jk-the-sans/pen/KKpMrOP
 
 參考圖片:
 
-![image](picture or gif url)
+![image](https://github.com/jk2626173jk/chickenattract/blob/master/chickenattract.PNG)
